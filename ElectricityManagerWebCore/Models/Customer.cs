@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace ElectricityManagerWebCore.Models
 {
     public class Customer
@@ -13,5 +15,6 @@ namespace ElectricityManagerWebCore.Models
         public string ObjectAdress { get; set; }
         public int Category { get; set; }
         public bool Status { get; set; }
+        public List<PowerUsage> Usages { get; set; }
     }
 }

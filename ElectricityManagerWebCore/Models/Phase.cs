@@ -7,5 +7,6 @@ namespace ElectricityManagerWebCore.Models
         public int Id { get; set; }
         public Line Line { get; set; }
         public List<PhaseData> PhaseDatas { get; set; }
+        public Workload Workload { get; set; }
     }
 }

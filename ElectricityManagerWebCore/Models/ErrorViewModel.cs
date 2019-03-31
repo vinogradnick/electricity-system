@@ -1,5 +1,3 @@
-using System;
-
 namespace ElectricityManagerWebCore.Models
 {
     public class ErrorViewModel
